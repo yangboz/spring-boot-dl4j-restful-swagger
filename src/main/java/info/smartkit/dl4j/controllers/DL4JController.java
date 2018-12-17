@@ -13,6 +13,8 @@ import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
 import javax.ws.rs.core.MediaType;
 
+import info.smartkit.dl4j.storage.StorageService;
+import info.smartkit.dl4j.utils.ImageClassifier;
 import io.swagger.annotations.ApiOperation;
 import org.apache.commons.io.FilenameUtils;
 import org.apache.logging.log4j.LogManager;
@@ -21,11 +23,11 @@ import org.hibernate.validator.constraints.NotBlank;
 import org.im4java.core.ConvertCmd;
 import org.im4java.core.IM4JavaException;
 import org.im4java.core.IMOperation;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import info.smartkit.dl4j.dto.JsonObject;
-import info.smartkit.dl4j.dto.OcrInfo;
 import info.smartkit.dl4j.utils.FileUtil;
 import info.smartkit.dl4j.utils.OcrInfoHelper;
 import net.sourceforge.tess4j.Tesseract;
@@ -46,60 +48,13 @@ public class DL4JController {
 		ori, sml, ico
 	}
 
-	// @see: https://spring.io/guides/gs/uploading-files/
-	@RequestMapping(method = RequestMethod.POST, value = "/tesseract", consumes = MediaType.MULTIPART_FORM_DATA)
-	@ApiOperation(value = "Response a string describing OCR' picture is successfully uploaded or not.")
-//	@ApiImplicitParams({@ApiImplicitParam(name="Authorization", value="Authorization DESCRIPTION")})
-	public @ResponseBody JsonObject TesseractFileUpload(
-			 @RequestParam(value = "language", required = false, defaultValue =
-			 "eng") String language,
-			// @RequestParam(value = "owner", required = false, defaultValue =
-			// "default_intellif_corp") String owner,
-			@RequestPart(value = "file") @Valid @NotNull @NotBlank MultipartFile file) {
-		// @Validated MultipartFileWrapper file, BindingResult result, Principal
-		// principal){
-		long startTime = System.currentTimeMillis();
-		OcrInfo ocrInfo = new OcrInfo();
-		String fileName = null;
-		if (!file.isEmpty()) {
-			// ImageMagick convert options; @see:
-			// http://paxcel.net/blog/java-thumbnail-generator-imagescalar-vs-imagemagic/
-			Map<String, String> _imageMagickOutput = this.fileOperation(file);
-			// Save to database.
-			try {
-				// Image resize operation.
-				fileName = _imageMagickOutput.get(ImageSize.ori.toString());
-				LOG.info("ImageMagick output success: " + fileName);
-				 String imageUrl = OcrInfoHelper.getRemoteImageUrl(fileName);
-				ocrInfo.setUri(imageUrl);
-				// OCRing:
-		        try {
-		            Tesseract tesseract = Tesseract.getInstance(); // JNA Interface Mapping
-		            String fullFilePath = FileUtil.getUploads()+fileName;
-		            LOG.info("OCR full file path: "+fullFilePath);
-		            //setTessVariable
-		            //key - variable name, e.g., tessedit_create_hocr, tessedit_char_whitelist, etc.
-					tesseract.setDatapath("/usr/local/share/tessdata/");
-		            //value - value for corresponding variable, e.g., "1", "0", "0123456789", etc.
-		            tesseract.setTessVariable("tessedit_char_whitelist", "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789");
-					tesseract.setLanguage(language);
-		            String imageText = tesseract.doOCR(new File(fullFilePath));
-		            LOG.debug("Tesseract OCR Result = " + imageText);
-		            ocrInfo.setText(imageText);
-		            //Timing calculate
-		    		long endTime = System.currentTimeMillis();
-		    		ocrInfo.setTime(endTime - startTime);//"That took " + (endTime - startTime) + " milliseconds"
-		        } catch (Exception e) {
-		            LOG.warn("Tessearct Exception while converting the uploaded image: "+ e);
-		            throw new TesseractException();
-		        }
-			} catch (Exception ex) {
-				LOG.error(ex.toString());
-			}
-		} else {
-			LOG.error("You failed to upload " + file.getName() + " because the file was empty.");
-		}
-		return new JsonObject(ocrInfo);
+	private final StorageService storageService;
+	private ImageClassifier imageClassifier;
+
+	@Autowired
+	public DL4JController(StorageService storageService, ImageClassifier imageClassifier) {
+		this.storageService = storageService;
+		this.imageClassifier = imageClassifier;
 	}
 
 	// @see: https://spring.io/guides/gs/uploading-files/
@@ -112,31 +67,19 @@ public class DL4JController {
 			@RequestPart(value = "file") @Valid @NotNull @NotBlank MultipartFile file) {
 		// @Validated MultipartFileWrapper file, BindingResult result, Principal
 		// principal){
-		long startTime = System.currentTimeMillis();
-		OcrInfo ocrInfo = new OcrInfo();
-		String fileName = null;
+		String predictions = "Error";
 		if (!file.isEmpty()) {
-			// ImageMagick convert options; @see:
-			// http://paxcel.net/blog/java-thumbnail-generator-imagescalar-vs-imagemagic/
-			Map<String, String> _imageMagickOutput = this.fileOperation(file);
-			// Save to database.
+			// DL4Jing:
+			storageService.store(file);
 			try {
-				// Image resize operation.
-				fileName = _imageMagickOutput.get(ImageSize.ori.toString());
-				LOG.info("ImageMagick output success: " + fileName);
-				String imageUrl = OcrInfoHelper.getRemoteImageUrl(fileName);
-				ocrInfo.setUri(imageUrl);
-				// DL4Jing:
-				// model zoo, @see:https://ordina-jtech.github.io/programming/2018/01/05/adding-image-classification-with-deeplearning4j.html
-				ComputationGraph vgg16 = (ComputationGraph) new Vgg16().
-
-			} catch (Exception ex) {
-				LOG.error(ex.toString());
+				predictions = imageClassifier.classify(file.getInputStream());
+			} catch (IOException e) {
+				e.printStackTrace();
 			}
 		} else {
 			LOG.error("You failed to upload " + file.getName() + " because the file was empty.");
 		}
-		return new JsonObject(ocrInfo);
+		return new JsonObject(predictions);
 	}
 
 	//
