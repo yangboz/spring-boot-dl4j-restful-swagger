@@ -86,7 +86,7 @@ public class ImageClassifier {
      * Rank the activation of the output nodes to create a top 5 of predictions
      */
     private List<Prediction> decodePredictions(INDArray encodedPredictions) {
-        List<Prediction> decodedPredictions = new ArrayList<>();
+        List<Prediction> decodedPredictions = new ArrayList<Prediction>();
         int[] top5 = new int[5];
         float[] top5Prob = new float[5];
 

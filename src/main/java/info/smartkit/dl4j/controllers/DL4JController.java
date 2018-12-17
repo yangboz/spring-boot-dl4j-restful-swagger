@@ -24,14 +24,12 @@ import org.im4java.core.ConvertCmd;
 import org.im4java.core.IM4JavaException;
 import org.im4java.core.IMOperation;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import info.smartkit.dl4j.dto.JsonObject;
 import info.smartkit.dl4j.utils.FileUtil;
-import info.smartkit.dl4j.utils.OcrInfoHelper;
-import net.sourceforge.tess4j.Tesseract;
-import net.sourceforge.tess4j.TesseractException;
 
 /**
  * The Class OCRsController.
@@ -58,10 +56,10 @@ public class DL4JController {
 	}
 
 	// @see: https://spring.io/guides/gs/uploading-files/
-	@RequestMapping(method = RequestMethod.POST, value = "/dl4j", consumes = MediaType.MULTIPART_FORM_DATA)
-	@ApiOperation(value = "Response a string describing DL4J' picture is successfully uploaded or not.")
+	@RequestMapping(method = RequestMethod.POST, value = "/imageClassify", consumes = MediaType.MULTIPART_FORM_DATA)
+	@ApiOperation(value = "Response a string describing DL4J' picture is successfully uploaded then classified or not.")
 //	@ApiImplicitParams({@ApiImplicitParam(name="Authorization", value="Authorization DESCRIPTION")})
-	public @ResponseBody JsonObject DL4JFileUpload(
+	public @ResponseBody JsonObject imageClassify(
 			@RequestParam(value = "model", required = false, defaultValue =
 					"vgg16") String model,
 			@RequestPart(value = "file") @Valid @NotNull @NotBlank MultipartFile file) {
@@ -70,7 +68,7 @@ public class DL4JController {
 		String predictions = "Error";
 		if (!file.isEmpty()) {
 			// DL4Jing:
-			storageService.store(file);
+//			storageService.store(file);
 			try {
 				predictions = imageClassifier.classify(file.getInputStream());
 			} catch (IOException e) {
@@ -148,5 +146,10 @@ public class DL4JController {
 	public String getClassPath() {
 		String classPath = this.getClass().getResource("/").getPath();
 		return classPath;
+	}
+
+	@ExceptionHandler(Exception.class)
+	public ResponseEntity handleStorageFileNotFound(Exception exc) {
+		return ResponseEntity.notFound().build();
 	}
 }

@@ -38,6 +38,7 @@ public class FileSystemStorageService implements StorageService {
                 throw new StorageException("Cannot store file with relative path outside current directory " + filename);
             }
             Files.copy(file.getInputStream(), this.rootLocation.resolve(filename), StandardCopyOption.REPLACE_EXISTING);
+            System.out.println("FileSystemStorageService store success:" + file.toString());
         } catch (IOException e) {
             throw new StorageException("Failed to store file " + filename, e);
         }
