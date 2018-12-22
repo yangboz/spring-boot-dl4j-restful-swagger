@@ -2,82 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47cd4d3b-91e6-4a4e-92ff-8259fd80a451" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_1_3_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_flandmark_1_07_1_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacv_1_3_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_tree_5_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_log4j2_1_5_6_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_6_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_3.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_10.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_9.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_10.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_9.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_tess4j_tess4j_2_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_0_8.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_artoolkitplus_2_3_0_0_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_artoolkitplus_2_3_1_1_3.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_artoolkitplus_macosx_x86_64_2_3_0_0_8.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_ffmpeg_2_2_1_0_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_ffmpeg_3_2_1_1_3.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_ffmpeg_macosx_x86_64_2_2_1_0_8.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_flycapture_1_7_17_0_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_flycapture_2_9_3_43_1_3.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_flycapture_macosx_x86_64_1_7_17_0_8.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_libdc1394_2_2_2_0_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_libdc1394_2_2_4_1_3.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_libdc1394_macosx_x86_64_2_2_2_0_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_librealsense_1_9_6_1_3.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_libfreenect_0_4_0_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_libfreenect_0_5_3_1_3.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_libfreenect_macosx_x86_64_0_4_0_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_libfreenect2_0_2_0_1_3.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_2_4_9_0_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_3_2_0_1_3.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_macosx_x86_64_2_4_9_0_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_macosx_x86_64_3_2_0_1_3.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_videoinput_0_200_0_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_videoinput_0_200_1_3.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_videoinput_macosx_x86_64_0_200_0_8.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacv_0_8.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_annotations_9_4_8_v20171121.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_annotations_9_4_6_v20170531.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_client_9_4_8_v20171121.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_webapp_9_4_6_v20170531.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_continuation_9_4_8_v20171121.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_continuation_9_4_6_v20170531.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_4_8_v20171121.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_plus_9_4_6_v20170531.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_4_8_v20171121.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_4_6_v20170531.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_plus_9_4_8_v20171121.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_4_6_v20170531.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_9_4_8_v20171121.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlets_9_4_6_v20170531.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_4_8_v20171121.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_client_9_4_6_v20170531.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_9_4_8_v20171121.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_9_4_6_v20170531.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlets_9_4_8_v20171121.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_9_4_6_v20170531.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_4_8_v20171121.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_4_6_v20170531.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_webapp_9_4_8_v20171121.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_4_6_v20170531.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_xml_9_4_8_v20171121.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_xml_9_4_6_v20170531.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_javax_websocket_client_impl_9_4_8_v20171121.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_javax_websocket_server_impl_9_4_6_v20170531.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_javax_websocket_server_impl_9_4_8_v20171121.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_javax_websocket_client_impl_9_4_6_v20170531.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_4_8_v20171121.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_4_6_v20170531.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_4_8_v20171121.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_4_6_v20170531.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_4_8_v20171121.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_4_6_v20170531.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_server_9_4_8_v20171121.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_server_9_4_6_v20170531.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_servlet_9_4_8_v20171121.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_servlet_9_4_6_v20170531.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_27_incubating.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_26_incubating.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_6_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_5_Final.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_6_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_commons_6_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_commons_5_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_tree_6_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_20.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_18.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_10_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_6_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_1_5_10_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_10_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_6_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_10_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_1_5_6_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_1_5_10_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jetty_1_5_10_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jetty_1_5_6_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_log4j2_1_5_10_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_6_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_10_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_1_5_6_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_10_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_6_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_14_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_10_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_14_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_10_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_14_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_10_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_14_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_10_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_14_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_10_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_14_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_10_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_14_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_10_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_annotations_2_0_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/info/smartkit/dl4j/utils/ModelNames.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_4_0.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_4_0.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_4_0.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_4_0.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_4_0.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_4_0.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_4_0.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_14.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_6.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_14.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_6.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_9.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_reflections_reflections_0_9_11.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reflections_reflections_0_9_10.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/info.smartkit.dl4j.iml" afterPath="$PROJECT_DIR$/info.smartkit.dl4j.iml" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/info/smartkit/dl4j/controllers/DL4JController.java" afterPath="$PROJECT_DIR$/src/main/java/info/smartkit/dl4j/controllers/DL4JController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/info/smartkit/dl4j/storage/FileSystemStorageService.java" afterPath="$PROJECT_DIR$/src/main/java/info/smartkit/dl4j/storage/FileSystemStorageService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/info/smartkit/dl4j/utils/ImageClassifier.java" afterPath="$PROJECT_DIR$/src/main/java/info/smartkit/dl4j/utils/ImageClassifier.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/info/smartkit/dl4j/utils/OcrInfoHelper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/orc_char_p.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/orc_chars_PG9N.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/orc_raw_01.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/orc_raw_02.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/raw_ocr.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/raw_ocr_2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/orc_char_p.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/orc_chars_PG9N.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/orc_raw_01.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/orc_raw_02.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/raw_ocr.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/raw_ocr_2.png" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -92,44 +47,67 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+            <state relative-caret-position="44">
+              <caret line="50" column="20" lean-forward="false" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DL4JController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SwaggerConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/dl4j/configs/SwaggerConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-157">
+              <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DL4JController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/dl4j/controllers/DL4JController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="71" column="17" lean-forward="false" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
+            <state relative-caret-position="-961">
+              <caret line="74" column="46" lean-forward="false" selection-start-line="74" selection-start-column="46" selection-end-line="74" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#5438#5439#0" expanded="true" />
-                <element signature="e#5485#5486#0" expanded="true" />
+                <element signature="e#6429#6430#0" expanded="true" />
+                <element signature="e#6476#6477#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ImageClassifier.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="application-dev.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModelNames.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/dl4j/utils/ModelNames.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding>
+                <element signature="e#177#178#0" expanded="true" />
+                <element signature="e#217#218#0" expanded="true" />
+                <element signature="e#249#250#0" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageClassifier.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/dl4j/utils/ImageClassifier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="75" column="26" lean-forward="true" selection-start-line="75" selection-start-column="6" selection-end-line="75" selection-end-column="26" />
-              <folding>
-                <element signature="e#2789#2801#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/dl4j/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state relative-caret-position="15">
+              <caret line="82" column="5" lean-forward="false" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -138,7 +116,7 @@
       <file leaf-file-name="StorageService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/dl4j/storage/StorageService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="45">
               <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -153,35 +131,6 @@
             <state relative-caret-position="157">
               <caret line="49" column="64" lean-forward="false" selection-start-line="49" selection-start-column="64" selection-end-line="49" selection-end-column="64" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InvocableHandlerMethod.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.10.RELEASE/spring-web-4.3.10.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1590">
-              <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-              <folding>
-                <marker date="1545012809245" expanded="false" signature="0:104" ph="/.../" />
-                <marker date="1545012809245" expanded="false" signature="162:711" ph="..." />
-                <marker date="1545012809245" expanded="false" signature="1105:1116" ph=" { " />
-                <marker date="1545012809245" expanded="false" signature="1137:1143" ph=" }" />
-                <marker date="1545012809245" expanded="false" signature="1206:1217" ph=" { " />
-                <marker date="1545012809245" expanded="false" signature="1237:1243" ph=" }" />
-                <marker date="1545012809245" expanded="true" signature="1365:1421" ph="{...}" />
-                <marker date="1545012809245" expanded="true" signature="1500:1559" ph="{...}" />
-                <marker date="1545012809245" expanded="true" signature="1669:1728" ph="{...}" />
-                <marker date="1545012809245" expanded="true" signature="1822:1893" ph="{...}" />
-                <marker date="1545012809245" expanded="true" signature="2033:2638" ph="{...}" />
-                <marker date="1545012809245" expanded="true" signature="2788:4133" ph="{...}" />
-                <marker date="1545012809245" expanded="true" signature="4212:4389" ph="{...}" />
-                <marker date="1545012809245" expanded="true" signature="4485:4943" ph="{...}" />
-                <marker date="1545012809245" expanded="true" signature="5008:6165" ph="{...}" />
-                <marker date="1545012809245" expanded="true" signature="6250:6846" ph="{...}" />
-                <marker date="1545012809245" expanded="true" signature="6929:7500" ph="{...}" />
-                <marker date="1545012809245" expanded="true" signature="7560:7893" ph="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -247,77 +196,14 @@
                 <marker date="1545012659635" expanded="false" signature="23695:23706" ph=" { " />
                 <marker date="1545012659635" expanded="false" signature="23717:23723" ph=" }" />
                 <marker date="1545012659635" expanded="true" signature="23819:24632" ph="{...}" />
-                <marker date="1545012659635" expanded="true" signature="24785:27378" ph="{...}" />
-                <marker date="1545012659635" expanded="true" signature="27482:27554" ph="{...}" />
-                <marker date="1545012659635" expanded="true" signature="27662:29324" ph="{...}" />
-                <marker date="1545012659635" expanded="true" signature="29446:29771" ph="{...}" />
-                <marker date="1545012659635" expanded="true" signature="29873:31376" ph="{...}" />
-                <marker date="1545012659635" expanded="true" signature="31464:31858" ph="{...}" />
-                <marker date="1545012659635" expanded="true" signature="31987:32094" ph="{...}" />
-                <marker date="1545012659635" expanded="true" signature="32246:33102" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DispatcherServlet.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.10.RELEASE/spring-webmvc-4.3.10.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5340">
-              <caret line="405" column="0" lean-forward="false" selection-start-line="405" selection-start-column="0" selection-end-line="405" selection-end-column="0" />
-              <folding>
-                <marker date="1545012659635" expanded="false" signature="0:104" ph="/.../" />
-                <marker date="1545012659635" expanded="false" signature="155:1983" ph="..." />
-                <marker date="1545012659635" expanded="false" signature="4967:4978" ph=" { " />
-                <marker date="1545012659635" expanded="false" signature="5015:5021" ph=" }" />
-                <marker date="1545012659635" expanded="true" signature="5097:5188" ph="{...}" />
-                <marker date="1545012659635" expanded="true" signature="5268:5341" ph="{...}" />
-                <marker date="1545012659635" expanded="true" signature="5421:5494" ph="{...}" />
-                <marker date="1545012659635" expanded="true" signature="5594:5687" ph="{...}" />
-                <marker date="1545012659635" expanded="true" signature="5763:5832" ph="{...}" />
-                <marker date="1545012659635" expanded="true" signature="5924:6009" ph="{...}" />
-                <marker date="1545012659635" expanded="false" signature="6078:6089" ph=" { " />
-                <marker date="1545012659635" expanded="false" signature="6136:6142" ph=" }" />
-                <marker date="1545012659635" expanded="false" signature="6200:6211" ph=" { " />
-                <marker date="1545012659635" expanded="false" signature="6240:6246" ph=" }" />
-                <marker date="1545012659635" expanded="true" signature="6310:6723" ph="{...}" />
-                <marker date="1545012659635" expanded="true" signature="6792:7403" ph="{...}" />
-                <marker date="1545012659635" expanded="true" signature="7469:8124" ph="{...}" />
-                <marker date="1545012659635" expanded="true" signature="8189:8832" ph="{...}" />
-                <marker date="1545012659635" expanded="true" signature="8899:9994" ph="{...}" />
-                <marker date="1545012659635" expanded="true" signature="10061:11156" ph="{...}" />
-                <marker date="1545012659635" expanded="true" signature="11233:12480" ph="{...}" />
-                <marker date="1545012659635" expanded="true" signature="12559:13316" ph="{...}" />
-                <marker date="1545012659635" expanded="true" signature="13381:14446" ph="{...}" />
-                <marker date="1545012659635" expanded="true" signature="14513:15180" ph="{...}" />
-                <marker date="1545012659635" expanded="true" signature="15228:15360" ph="{...}" />
-                <marker date="1545012659635" expanded="false" signature="15419:15430" ph=" { " />
-                <marker date="1545012659635" expanded="false" signature="15460:15466" ph=" }" />
-                <marker date="1545012659635" expanded="true" signature="15563:15906" ph="{...}" />
-                <marker date="1545012659635" expanded="true" signature="16011:17378" ph="{...}" />
-                <marker date="1545012659635" expanded="true" signature="17467:17548" ph="{...}" />
-                <marker date="1545012659635" expanded="true" signature="17654:19779" ph="{...}" />
-                <marker date="1545012659635" expanded="true" signature="19886:23083" ph="{...}" />
-                <marker date="1545012659635" expanded="true" signature="23185:23308" ph="{...}" />
-                <marker date="1545012659635" expanded="true" signature="23499:24765" ph="{...}" />
-                <marker date="1545012659635" expanded="true" signature="24848:25174" ph="{...}" />
-                <marker date="1545012659635" expanded="true" signature="25017:25167" ph="{...}" />
-                <marker date="1545012659635" expanded="false" signature="25056:25075" ph=" { " />
-                <marker date="1545012659635" expanded="false" signature="25143:25157" ph=" }" />
-                <marker date="1545012659635" expanded="true" signature="25278:26344" ph="{...}" />
-                <marker date="1545012659635" expanded="true" signature="26416:26693" ph="{...}" />
-                <marker date="1545012659635" expanded="true" signature="26759:27043" ph="{...}" />
-                <marker date="1545012659635" expanded="true" signature="27137:27696" ph="{...}" />
-                <marker date="1545012659635" expanded="true" signature="27807:28315" ph="{...}" />
-                <marker date="1545012659635" expanded="true" signature="28404:28988" ph="{...}" />
-                <marker date="1545012659635" expanded="true" signature="29146:30254" ph="{...}" />
-                <marker date="1545012659635" expanded="true" signature="30374:31776" ph="{...}" />
-                <marker date="1545012659635" expanded="true" signature="31863:31931" ph="{...}" />
-                <marker date="1545012659635" expanded="true" signature="32072:32433" ph="{...}" />
-                <marker date="1545012659635" expanded="true" signature="32601:32747" ph="{...}" />
-                <marker date="1545012659635" expanded="true" signature="32854:33988" ph="{...}" />
-                <marker date="1545012659635" expanded="true" signature="34058:34254" ph="{...}" />
-                <marker date="1545012659635" expanded="true" signature="34267:34652" ph="{...}" />
+                <marker date="1545012659635" expanded="true" signature="24785:27396" ph="{...}" />
+                <marker date="1545012659635" expanded="true" signature="27500:27572" ph="{...}" />
+                <marker date="1545012659635" expanded="true" signature="27680:29342" ph="{...}" />
+                <marker date="1545012659635" expanded="true" signature="29464:29789" ph="{...}" />
+                <marker date="1545012659635" expanded="true" signature="29891:31394" ph="{...}" />
+                <marker date="1545012659635" expanded="true" signature="31482:31876" ph="{...}" />
+                <marker date="1545012659635" expanded="true" signature="32005:32112" ph="{...}" />
+                <marker date="1545012659635" expanded="true" signature="32264:33120" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -445,9 +331,11 @@
         <option value="$PROJECT_DIR$/src/main/java/info/smartkit/dl4j/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/info/smartkit/dl4j/storage/StorageProperties.java" />
         <option value="$PROJECT_DIR$/src/main/java/info/smartkit/dl4j/storage/FileSystemStorageService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/info/smartkit/dl4j/utils/ImageClassifier.java" />
+        <option value="$PROJECT_DIR$/src/main/java/info/smartkit/dl4j/utils/ModelNames.java" />
         <option value="$PROJECT_DIR$/src/main/java/info/smartkit/dl4j/controllers/DL4JController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/info/smartkit/dl4j/utils/ImageClassifier.java" />
+        <option value="$PROJECT_DIR$/src/main/java/info/smartkit/dl4j/configs/SwaggerConfig.java" />
       </list>
     </option>
   </component>
@@ -464,7 +352,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1686" />
     <option name="height" value="867" />
@@ -486,6 +374,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -554,6 +443,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="dl4j" type="462c0819:PsiDirectoryNode" />
+              <item name="settings" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="info.smartkit.dl4j" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-dl4j-restful-swagger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dl4j" type="462c0819:PsiDirectoryNode" />
               <item name="storage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -584,7 +482,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -732,15 +629,17 @@
       <workItem from="1545051424182" duration="803000" />
       <workItem from="1545052762379" duration="862000" />
       <workItem from="1545054960090" duration="1906000" />
-      <workItem from="1545057017930" duration="1412000" />
+      <workItem from="1545057017930" duration="1539000" />
+      <workItem from="1545442649899" duration="7244000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15479000" />
+    <option name="totallyTimeSpent" value="22850000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1686" height="867" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="831" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -754,16 +653,16 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39896372" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901555" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32880434" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3134715" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45652175" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292517" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22323601" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32880434" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22603719" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -802,29 +701,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/nd4j/nd4j-native/0.9.1/nd4j-native-0.9.1.jar!/org/nd4j/nativeblas/Nd4jCpu.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15570">
-          <caret line="1038" column="0" lean-forward="false" selection-start-line="1038" selection-start-column="0" selection-end-line="1038" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/dl4j/controllers/DL4JController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="51" column="43" lean-forward="false" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5438#5439#0" expanded="true" />
-            <element signature="e#5485#5486#0" expanded="true" />
+            <element signature="e#6429#6430#0" expanded="true" />
+            <element signature="e#6476#6477#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -833,9 +717,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="40" column="7" lean-forward="false" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
-          <folding>
-            <element signature="e#2789#2801#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -918,8 +800,8 @@
           <caret line="51" column="43" lean-forward="false" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5438#5439#0" expanded="true" />
-            <element signature="e#5485#5486#0" expanded="true" />
+            <element signature="e#6429#6430#0" expanded="true" />
+            <element signature="e#6476#6477#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -995,8 +877,8 @@
           <caret line="51" column="43" lean-forward="false" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5438#5439#0" expanded="true" />
-            <element signature="e#5485#5486#0" expanded="true" />
+            <element signature="e#6429#6430#0" expanded="true" />
+            <element signature="e#6476#6477#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1037,9 +919,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
-          <folding>
-            <element signature="e#2789#2801#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1091,14 +971,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1157,78 +1029,6 @@
             <marker date="1545012809245" expanded="true" signature="6250:6846" ph="{...}" />
             <marker date="1545012809245" expanded="true" signature="6929:7500" ph="{...}" />
             <marker date="1545012809245" expanded="true" signature="7560:7893" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.10.RELEASE/spring-webmvc-4.3.10.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6525">
-          <caret line="531" column="0" lean-forward="false" selection-start-line="531" selection-start-column="0" selection-end-line="531" selection-end-column="0" />
-          <folding>
-            <marker date="1545012659635" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1545012659635" expanded="false" signature="177:4962" ph="..." />
-            <marker date="1545012659635" expanded="true" signature="7165:7315" ph="{...}" />
-            <marker date="1545012659635" expanded="true" signature="7213:7309" ph="{...}" />
-            <marker date="1545012659635" expanded="true" signature="7399:7625" ph="{...}" />
-            <marker date="1545012659635" expanded="true" signature="7447:7619" ph="{...}" />
-            <marker date="1545012659635" expanded="true" signature="7670:8181" ph="{...}" />
-            <marker date="1545012659635" expanded="true" signature="8281:8346" ph="{...}" />
-            <marker date="1545012659635" expanded="false" signature="8423:8434" ph=" { " />
-            <marker date="1545012659635" expanded="false" signature="8470:8476" ph=" }" />
-            <marker date="1545012659635" expanded="true" signature="8570:8840" ph="{...}" />
-            <marker date="1545012659635" expanded="true" signature="8912:9013" ph="{...}" />
-            <marker date="1545012659635" expanded="true" signature="9117:9417" ph="{...}" />
-            <marker date="1545012659635" expanded="true" signature="9499:9620" ph="{...}" />
-            <marker date="1545012659635" expanded="true" signature="9726:9795" ph="{...}" />
-            <marker date="1545012659635" expanded="true" signature="9877:9931" ph="{...}" />
-            <marker date="1545012659635" expanded="true" signature="10031:10312" ph="{...}" />
-            <marker date="1545012659635" expanded="true" signature="10388:10450" ph="{...}" />
-            <marker date="1545012659635" expanded="true" signature="10543:10610" ph="{...}" />
-            <marker date="1545012659635" expanded="false" signature="10676:10687" ph=" { " />
-            <marker date="1545012659635" expanded="false" signature="10721:10727" ph=" }" />
-            <marker date="1545012659635" expanded="true" signature="10827:10902" ph="{...}" />
-            <marker date="1545012659635" expanded="true" signature="10990:11049" ph="{...}" />
-            <marker date="1545012659635" expanded="false" signature="11114:11125" ph=" { " />
-            <marker date="1545012659635" expanded="false" signature="11155:11161" ph=" }" />
-            <marker date="1545012659635" expanded="true" signature="11243:11372" ph="{...}" />
-            <marker date="1545012659635" expanded="true" signature="11460:11591" ph="{...}" />
-            <marker date="1545012659635" expanded="true" signature="11679:11746" ph="{...}" />
-            <marker date="1545012659635" expanded="false" signature="11807:11818" ph=" { " />
-            <marker date="1545012659635" expanded="false" signature="11852:11858" ph=" }" />
-            <marker date="1545012659635" expanded="false" signature="11923:11934" ph=" { " />
-            <marker date="1545012659635" expanded="false" signature="11967:11973" ph=" }" />
-            <marker date="1545012659635" expanded="false" signature="12027:12038" ph=" { " />
-            <marker date="1545012659635" expanded="false" signature="12073:12079" ph=" }" />
-            <marker date="1545012659635" expanded="true" signature="12171:12418" ph="{...}" />
-            <marker date="1545012659635" expanded="true" signature="12522:12793" ph="{...}" />
-            <marker date="1545012659635" expanded="true" signature="12881:12962" ph="{...}" />
-            <marker date="1545012659635" expanded="true" signature="13050:13117" ph="{...}" />
-            <marker date="1545012659635" expanded="true" signature="13223:13326" ph="{...}" />
-            <marker date="1545012659635" expanded="true" signature="13398:13463" ph="{...}" />
-            <marker date="1545012659635" expanded="true" signature="13557:13628" ph="{...}" />
-            <marker date="1545012659635" expanded="true" signature="13686:13835" ph="{...}" />
-            <marker date="1545012659635" expanded="false" signature="13891:13902" ph=" { " />
-            <marker date="1545012659635" expanded="false" signature="13926:13932" ph=" }" />
-            <marker date="1545012659635" expanded="true" signature="13971:14752" ph="{...}" />
-            <marker date="1545012659635" expanded="true" signature="14799:17131" ph="{...}" />
-            <marker date="1545012659635" expanded="true" signature="17211:19457" ph="{...}" />
-            <marker date="1545012659635" expanded="true" signature="19547:20671" ph="{...}" />
-            <marker date="1545012659635" expanded="true" signature="20755:22354" ph="{...}" />
-            <marker date="1545012659635" expanded="false" signature="22423:22434" ph=" { " />
-            <marker date="1545012659635" expanded="false" signature="22446:22452" ph=" }" />
-            <marker date="1545012659635" expanded="true" signature="22600:23594" ph="{...}" />
-            <marker date="1545012659635" expanded="false" signature="23695:23706" ph=" { " />
-            <marker date="1545012659635" expanded="false" signature="23717:23723" ph=" }" />
-            <marker date="1545012659635" expanded="true" signature="23819:24632" ph="{...}" />
-            <marker date="1545012659635" expanded="true" signature="24785:27378" ph="{...}" />
-            <marker date="1545012659635" expanded="true" signature="27482:27554" ph="{...}" />
-            <marker date="1545012659635" expanded="true" signature="27662:29324" ph="{...}" />
-            <marker date="1545012659635" expanded="true" signature="29446:29771" ph="{...}" />
-            <marker date="1545012659635" expanded="true" signature="29873:31376" ph="{...}" />
-            <marker date="1545012659635" expanded="true" signature="31464:31858" ph="{...}" />
-            <marker date="1545012659635" expanded="true" signature="31987:32094" ph="{...}" />
-            <marker date="1545012659635" expanded="true" signature="32246:33102" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1379,7 +1179,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/dl4j/storage/StorageService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="45">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1387,15 +1187,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/dl4j/controllers/DL4JController.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.10.RELEASE/spring-webmvc-4.3.10.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="71" column="17" lean-forward="false" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
+        <state relative-caret-position="6525">
+          <caret line="531" column="0" lean-forward="false" selection-start-line="531" selection-start-column="0" selection-end-line="531" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5438#5439#0" expanded="true" />
-            <element signature="e#5485#5486#0" expanded="true" />
+            <marker date="1545012659635" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1545012659635" expanded="false" signature="177:4962" ph="..." />
+            <marker date="1545012659635" expanded="true" signature="7165:7315" ph="{...}" />
+            <marker date="1545012659635" expanded="true" signature="7213:7309" ph="{...}" />
+            <marker date="1545012659635" expanded="true" signature="7399:7625" ph="{...}" />
+            <marker date="1545012659635" expanded="true" signature="7447:7619" ph="{...}" />
+            <marker date="1545012659635" expanded="true" signature="7670:8181" ph="{...}" />
+            <marker date="1545012659635" expanded="true" signature="8281:8346" ph="{...}" />
+            <marker date="1545012659635" expanded="false" signature="8423:8434" ph=" { " />
+            <marker date="1545012659635" expanded="false" signature="8470:8476" ph=" }" />
+            <marker date="1545012659635" expanded="true" signature="8570:8840" ph="{...}" />
+            <marker date="1545012659635" expanded="true" signature="8912:9013" ph="{...}" />
+            <marker date="1545012659635" expanded="true" signature="9117:9417" ph="{...}" />
+            <marker date="1545012659635" expanded="true" signature="9499:9620" ph="{...}" />
+            <marker date="1545012659635" expanded="true" signature="9726:9795" ph="{...}" />
+            <marker date="1545012659635" expanded="true" signature="9877:9931" ph="{...}" />
+            <marker date="1545012659635" expanded="true" signature="10031:10312" ph="{...}" />
+            <marker date="1545012659635" expanded="true" signature="10388:10450" ph="{...}" />
+            <marker date="1545012659635" expanded="true" signature="10543:10610" ph="{...}" />
+            <marker date="1545012659635" expanded="false" signature="10676:10687" ph=" { " />
+            <marker date="1545012659635" expanded="false" signature="10721:10727" ph=" }" />
+            <marker date="1545012659635" expanded="true" signature="10827:10902" ph="{...}" />
+            <marker date="1545012659635" expanded="true" signature="10990:11049" ph="{...}" />
+            <marker date="1545012659635" expanded="false" signature="11114:11125" ph=" { " />
+            <marker date="1545012659635" expanded="false" signature="11155:11161" ph=" }" />
+            <marker date="1545012659635" expanded="true" signature="11243:11372" ph="{...}" />
+            <marker date="1545012659635" expanded="true" signature="11460:11591" ph="{...}" />
+            <marker date="1545012659635" expanded="true" signature="11679:11746" ph="{...}" />
+            <marker date="1545012659635" expanded="false" signature="11807:11818" ph=" { " />
+            <marker date="1545012659635" expanded="false" signature="11852:11858" ph=" }" />
+            <marker date="1545012659635" expanded="false" signature="11923:11934" ph=" { " />
+            <marker date="1545012659635" expanded="false" signature="11967:11973" ph=" }" />
+            <marker date="1545012659635" expanded="false" signature="12027:12038" ph=" { " />
+            <marker date="1545012659635" expanded="false" signature="12073:12079" ph=" }" />
+            <marker date="1545012659635" expanded="true" signature="12171:12418" ph="{...}" />
+            <marker date="1545012659635" expanded="true" signature="12522:12793" ph="{...}" />
+            <marker date="1545012659635" expanded="true" signature="12881:12962" ph="{...}" />
+            <marker date="1545012659635" expanded="true" signature="13050:13117" ph="{...}" />
+            <marker date="1545012659635" expanded="true" signature="13223:13326" ph="{...}" />
+            <marker date="1545012659635" expanded="true" signature="13398:13463" ph="{...}" />
+            <marker date="1545012659635" expanded="true" signature="13557:13628" ph="{...}" />
+            <marker date="1545012659635" expanded="true" signature="13686:13835" ph="{...}" />
+            <marker date="1545012659635" expanded="false" signature="13891:13902" ph=" { " />
+            <marker date="1545012659635" expanded="false" signature="13926:13932" ph=" }" />
+            <marker date="1545012659635" expanded="true" signature="13971:14752" ph="{...}" />
+            <marker date="1545012659635" expanded="true" signature="14799:17131" ph="{...}" />
+            <marker date="1545012659635" expanded="true" signature="17211:19457" ph="{...}" />
+            <marker date="1545012659635" expanded="true" signature="19547:20671" ph="{...}" />
+            <marker date="1545012659635" expanded="true" signature="20755:22354" ph="{...}" />
+            <marker date="1545012659635" expanded="false" signature="22423:22434" ph=" { " />
+            <marker date="1545012659635" expanded="false" signature="22446:22452" ph=" }" />
+            <marker date="1545012659635" expanded="true" signature="22600:23594" ph="{...}" />
+            <marker date="1545012659635" expanded="false" signature="23695:23706" ph=" { " />
+            <marker date="1545012659635" expanded="false" signature="23717:23723" ph=" }" />
+            <marker date="1545012659635" expanded="true" signature="23819:24632" ph="{...}" />
+            <marker date="1545012659635" expanded="true" signature="24785:27396" ph="{...}" />
+            <marker date="1545012659635" expanded="true" signature="27500:27572" ph="{...}" />
+            <marker date="1545012659635" expanded="true" signature="27680:29342" ph="{...}" />
+            <marker date="1545012659635" expanded="true" signature="29464:29789" ph="{...}" />
+            <marker date="1545012659635" expanded="true" signature="29891:31394" ph="{...}" />
+            <marker date="1545012659635" expanded="true" signature="31482:31876" ph="{...}" />
+            <marker date="1545012659635" expanded="true" signature="32005:32112" ph="{...}" />
+            <marker date="1545012659635" expanded="true" signature="32264:33120" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/dl4j/utils/ImageClassifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="82" column="5" lean-forward="false" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/dl4j/utils/ModelNames.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1409,18 +1298,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        <state relative-caret-position="44">
+          <caret line="50" column="20" lean-forward="false" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/dl4j/utils/ImageClassifier.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/dl4j/configs/SwaggerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="75" column="26" lean-forward="true" selection-start-line="75" selection-start-column="6" selection-end-line="75" selection-end-column="26" />
+        <state relative-caret-position="-157">
+          <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/smartkit/dl4j/controllers/DL4JController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-961">
+          <caret line="74" column="46" lean-forward="false" selection-start-line="74" selection-start-column="46" selection-end-line="74" selection-end-column="46" />
           <folding>
-            <element signature="e#2789#2801#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#6429#6430#0" expanded="true" />
+            <element signature="e#6476#6477#0" expanded="true" />
           </folding>
         </state>
       </provider>

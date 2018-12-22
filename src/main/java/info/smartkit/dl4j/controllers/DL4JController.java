@@ -15,14 +15,23 @@ import javax.ws.rs.core.MediaType;
 
 import info.smartkit.dl4j.storage.StorageService;
 import info.smartkit.dl4j.utils.ImageClassifier;
+import info.smartkit.dl4j.utils.ModelNames;
 import io.swagger.annotations.ApiOperation;
 import org.apache.commons.io.FilenameUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.deeplearning4j.nn.modelimport.keras.InvalidKerasConfigurationException;
+import org.deeplearning4j.nn.modelimport.keras.KerasModelImport;
+import org.deeplearning4j.nn.modelimport.keras.UnsupportedKerasConfigurationException;
+import org.deeplearning4j.nn.multilayer.MultiLayerNetwork;
 import org.hibernate.validator.constraints.NotBlank;
 import org.im4java.core.ConvertCmd;
 import org.im4java.core.IM4JavaException;
 import org.im4java.core.IMOperation;
+import org.nd4j.linalg.api.ndarray.INDArray;
+import org.nd4j.linalg.cpu.nativecpu.NDArray;
+import org.nd4j.linalg.factory.Nd4j;
+import org.nd4j.linalg.io.ClassPathResource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -46,6 +55,7 @@ public class DL4JController {
 		ori, sml, ico
 	}
 
+
 	private final StorageService storageService;
 	private ImageClassifier imageClassifier;
 
@@ -60,23 +70,33 @@ public class DL4JController {
 	@ApiOperation(value = "Response a string describing DL4J' picture is successfully uploaded then classified or not.")
 //	@ApiImplicitParams({@ApiImplicitParam(name="Authorization", value="Authorization DESCRIPTION")})
 	public @ResponseBody JsonObject imageClassify(
-			@RequestParam(value = "model", required = false, defaultValue =
+			@RequestParam(value = "model", required = true, defaultValue =
 					"vgg16") String model,
-			@RequestPart(value = "file") @Valid @NotNull @NotBlank MultipartFile file) {
+			@RequestPart(value = "file") @Valid @NotNull @NotBlank MultipartFile file) throws InvalidKerasConfigurationException, IOException, UnsupportedKerasConfigurationException {
 		// @Validated MultipartFileWrapper file, BindingResult result, Principal
 		// principal){
 		String predictions = "Error";
+		predictions = importModelAndPredic(ModelNames.SIMPLE_MLP.filename()).toString();
 		if (!file.isEmpty()) {
 			// DL4Jing:
 //			storageService.store(file);
-			try {
-				predictions = imageClassifier.classify(file.getInputStream());
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
+//			if (model.equals(ModelNames.SIMPLE_MLP.filename())){
+//				//
+//				predictions = importModelAndPredic(ModelNames.SIMPLE_MLP.filename()).toString();
+//			} else if( model.equals(ModelNames.VGG16.filename())) {
+//				//vgg16
+//				try {
+//					predictions = imageClassifier.classify(file.getInputStream());
+//				} catch (IOException e) {
+//					e.printStackTrace();
+//				}
+//			}else {
+//				///...
+//			}
 		} else {
 			LOG.error("You failed to upload " + file.getName() + " because the file was empty.");
 		}
+		LOG.info(predictions);
 		return new JsonObject(predictions);
 	}
 
@@ -151,5 +171,22 @@ public class DL4JController {
 	@ExceptionHandler(Exception.class)
 	public ResponseEntity handleStorageFileNotFound(Exception exc) {
 		return ResponseEntity.notFound().build();
+	}
+
+
+	//@see: https://deeplearning4j.org/docs/latest/keras-import-overview
+	//@more models: https://github.com/deeplearning4j/deeplearning4j/blob/master/deeplearning4j/deeplearning4j-modelimport/src/test/java/org/deeplearning4j/nn/modelimport/keras/e2e/KerasModelEndToEndTest.java
+	private INDArray importModelAndPredic(String modelName) throws UnsupportedKerasConfigurationException, IOException, InvalidKerasConfigurationException {
+		if(modelName.isEmpty()) modelName = "simple_mlp.h5";//default.
+		String simpleMLP = new ClassPathResource(modelName).getFile().getPath();
+		MultiLayerNetwork modelAndWeights = KerasModelImport.importKerasSequentialModelAndWeights(simpleMLP);
+		//model testing
+		INDArray input = Nd4j.create(256, 100);
+		INDArray output = modelAndWeights.output(input);
+		LOG.info("importModelAndPredic:",modelName,output);
+		return output;
+		//model train.
+//		modelAndWeights.fit(input, output);
+
 	}
 }
